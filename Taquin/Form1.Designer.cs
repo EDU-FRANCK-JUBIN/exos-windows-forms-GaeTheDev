@@ -124,6 +124,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 8;
             this.pictureBox6.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox9
             // 
@@ -133,6 +134,7 @@
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 7;
             this.pictureBox9.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox8
             // 
@@ -142,6 +144,7 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 6;
             this.pictureBox8.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox7
             // 
@@ -151,6 +154,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 5;
             this.pictureBox7.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox5
             // 
@@ -160,6 +164,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox4
             // 
@@ -169,6 +174,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox2
             // 
@@ -188,6 +194,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox1
             // 

@@ -1,0 +1,9 @@
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\bin\Debug\Taquin.exe.config
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\bin\Debug\Taquin.exe
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\bin\Debug\Taquin.pdb
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\obj\Debug\Taquin.csprojAssemblyReference.cache
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\obj\Debug\Taquin.Taquin.resources
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\obj\Debug\Taquin.Properties.Resources.resources
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\obj\Debug\Taquin.csproj.GenerateResource.cache
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\obj\Debug\Taquin.exe
+C:\Users\Gaetan\source\repos\EDU-FRANCK-JUBIN\exos-windows-forms-GaeTheDev\Taquin\obj\Debug\Taquin.pdb

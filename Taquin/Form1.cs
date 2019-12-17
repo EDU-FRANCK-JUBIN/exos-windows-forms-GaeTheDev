@@ -86,7 +86,15 @@ namespace Taquin
 
         private void pictureBox_Click(object sender, EventArgs e)
         {
+            PictureBox current_picturebox = (PictureBox)sender;
+            for (int i = 0; i < all_picturebox.Count; i++)
+            {
+                if (current_picturebox == all_picturebox[i])
+                {
 
+                }
+            }
+    
         }
     }
 }
