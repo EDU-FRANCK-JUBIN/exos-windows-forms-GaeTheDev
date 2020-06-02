@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:text="Short"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="true"
+                android:textOn="short"
+                android:textOff="short"
+                android:id="@+id/shortBtn" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:textOn="long"
+                android:textOff="long"
+                android:id="@+id/longBtn" />
+            
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayout1"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="5">
+
+            <Button
+                android:text="Sound 1"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice1"
+                android:layout_margin="10dp"
+                android:onClick="sound"/>
+
+            <Button
+                android:text="Sound 2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice2"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 3"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice3"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 4"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice4"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 5"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice5"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 6"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice6"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 7"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice7"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 8"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice8"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 9"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice9"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:text="Sound 10"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/voice10"
+                android:layout_margin="10dp"/>
+
+        </GridLayout>
+
+        <ToggleButton
+            android:textOn="Mute"
+            android:textOff="Mute"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/mute"
+            android:checked="false"
+            android:layout_gravity="center" />
+
+        <Button
+            android:text="Vibration"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/vibration"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
